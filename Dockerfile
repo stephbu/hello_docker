@@ -2,7 +2,7 @@ FROM ubuntu:latest
 MAINTAINER stephbu@gmail.com
 
 RUN apt-get update -y
-RUN apt-get install -y python-pip python-dev build-essential net-tools curl
+RUN apt-get install -y python-pip python-dev
 RUN pip install --upgrade pip
 ADD app.py /app.py
 ADD requirements.txt /requirements.txt
