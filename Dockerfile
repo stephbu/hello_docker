@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+
 MAINTAINER stephbu@gmail.com
 
 RUN apt-get update -y

@@ -1,6 +1,6 @@
 # hello_docker
 
-Sample application to build into a docker container 
+Sample python application to build into a docker container 
 
 Demonstrates:
 - docker build
